@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { invoke } from "@tauri-apps/api/core";
+import { invoke } from "@tauri-apps/api/tauri"
 
   let name = $state("");
   let greetMsg = $state("");
